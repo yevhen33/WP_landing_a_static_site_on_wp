@@ -140,14 +140,13 @@
                             <div class="footer__contacts-item">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/svg/phone.svg" alt="телефон" class="footer__contacts-logo">
                                 <div class="footer__contacts-tel">
-                                    <a href="tel:+797867834347">+797867834347</a>
-                                    <a href="tel:+797867834358">+797867834358</a>
+                                    <a href="tel:<?php the_field('phone1', 2); ?>"><?php the_field('phone1', 2); ?></a>
+                                    <a href="tel:<?php the_field('phone2', 2); ?>"><?php the_field('phone2', 2); ?></a>
                                 </div>
                             </div>
                             <div class="footer__contacts-item">
                                 <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/svg/pointer.svg" alt="указатель" class="footer__contacts-logo">
-                                <address>ул. Василисы Кожиной, 1<br>
-                                    Москва, Россия, 121096</address>
+                                <address><?php the_field('address', 2); ?></address>
                             </div>
                         </div>
                     </div>
