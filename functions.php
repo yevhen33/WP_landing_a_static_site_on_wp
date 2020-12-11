@@ -11,4 +11,5 @@
     };
     
     add_theme_support( 'custom-logo' );
+    add_theme_support( 'post-thumbnails' ); // установили изображение записи в админке (для установки превьюшки)
 ?>
