@@ -9,7 +9,7 @@ Template Name: Игрушки
 ?>
 <div class="toys">
     <div class="container">
-        <h2 class="subtitle">Мягкие игрушки</h2>
+        <h2 class="subtitle"><a href="<?php echo bloginfo('url'); ?>/soft_toys/" style="text-decoration: none;">Мягкие игрушки</a></h2>
         <div class="toys__wrapper">
 
         <?php 
@@ -52,7 +52,7 @@ Template Name: Игрушки
         </div>
 
 
-        <h2 class="subtitle">Развивающие игрушки</h2>
+        <h2 class="subtitle"> <a href="<?php echo bloginfo('url'); ?>/educ_toys/" style="text-decoration: none;">Развивающие игрушки</a></h2>
         <div class="toys__wrapper">
 
         <?php 
